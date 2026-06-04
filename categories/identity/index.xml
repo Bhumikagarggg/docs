@@ -7,7 +7,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[357 329 454 97 235 16]" src="../../cloud/guides/organizations/org-management/org_overview.png" onclick="openModal(this.id)" alt="Organization Overview" 
+ &lt;img id="[86 172 397 398 259 145]" src="../../cloud/guides/organizations/org-management/org_overview.png" onclick="openModal(this.id)" alt="Organization Overview" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -128,7 +128,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[223 102 24 157 124 293]" src="../../cloud/concepts/identity-and-security/users/org_invite.png" onclick="openModal(this.id)" alt="User Management options" 
+ &lt;img id="[225 60 138 97 127 384]" src="../../cloud/concepts/identity-and-security/users/org_invite.png" onclick="openModal(this.id)" alt="User Management options" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
