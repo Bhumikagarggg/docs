@@ -7,7 +7,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[86 172 397 398 259 145]" src="../../cloud/guides/organizations/org-management/org_overview.png" onclick="openModal(this.id)" alt="Organization Overview" 
+ &lt;img id="[348 55 136 363 79 203]" src="images/org_overview.png" onclick="openModal(this.id)" alt="Organization Overview" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -29,22 +29,14 @@
  Creating an Organization
  &lt;a href="#creating-an-organization" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;An Organization provides a way to structure your teams, users, and resource access for different projects or initiatives.&lt;/p&gt;</description></item><item><title>Organizations</title><link>/cloud/concepts/identity-and-security/organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/organizations/</guid><description>&lt;p&gt;Organizations are the basic unit of multi-tenancy inside of Layer5 Cloud. Organizations can have any number of teams. Teams can have any number of users. Users can belong to any number of teams. Users may belong to any number of organizations.&lt;/p&gt;
-&lt;p&gt;Outside of grouping users together, teams offer control access to workspaces and to workspace resources such as environments and managed and unmanaged connections&lt;/p&gt;
-&lt;img src="../../cloud/concepts/identity-and-security/images/organization_units.svg" alt="Organizational units" style="width: 35%;" /&gt;
-
-&lt;h2 id="example-the-orbital-labs-ecosystem" class="heading-link"&gt;
- Example: The Orbital Labs Ecosystem
- &lt;a href="#example-the-orbital-labs-ecosystem" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;The following organizations illustrate how multi-tenancy works across provider, startup, and enterprise tiers. Follow along in the rest of the docs using &lt;a href=""&gt;Five and the cast at Orbital Labs&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Default Organization Roles</title><link>/cloud/concepts/identity-and-security/roles/organization-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/organization-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
+&lt;p&gt;An Organization provides a way to structure your teams, users, and resource access for different projects or initiatives.&lt;/p&gt;</description></item><item><title>Organizations</title><link>/cloud/concepts/identity-and-security/organizations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/organizations/</guid><description>&lt;p&gt;Organizations are the basic unit of multi-tenancy — and the core security boundary — inside of Layer5 Cloud. Everything else (teams, workspaces, roles, keychains, and keys) composes on top of the organization, and resources, billing, and access control are isolated per organization. Organizations can have any number of teams. Teams can have any number of users. Users can belong to any number of teams. Users may belong to any number of organizations.&lt;/p&gt;</description></item><item><title>Default Organization Roles</title><link>/cloud/concepts/identity-and-security/roles/organization-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/concepts/identity-and-security/roles/organization-roles/</guid><description>&lt;div class="td-card-group card-group p-0 mb-4"&gt;
 &lt;div class="td-card card border me-4"&gt;
 &lt;div class="card-header"&gt;
  Default Organization Roles
  &lt;/div&gt;
 &lt;div class="card-body"&gt;
  &lt;p class="card-text"&gt;
- &lt;img src="../../cloud/concepts/identity-and-security/images/organization-roles.svg" link="images/organization-roles.svg" width="100%" alt="Organization Roles" /&gt;
+ &lt;img src="../images/organization-roles.svg" link="../images/organization-roles.svg" width="100%" alt="Organization Roles" /&gt;
 &lt;/p&gt;
  &lt;/div&gt;
  &lt;/div&gt;
@@ -107,4 +99,13 @@
  Order of Precedence for Organization Settings
  &lt;a href="#order-of-precedence-for-organization-settings" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h2&gt;
-&lt;p&gt;Layer5 Cloud uses the following order of precedence to determine your active organization context:&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Layer5 Cloud uses the following order of precedence to determine your active organization context:&lt;/p&gt;</description></item><item><title>Organization Configuration Scenarios</title><link>/cloud/guides/organizations/configuration-scenarios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cloud/guides/organizations/configuration-scenarios/</guid><description>&lt;p&gt;Every organization in Layer5 Cloud is configured based on two simple choices:
+&lt;strong&gt;where your users sign in&lt;/strong&gt; (your front door) and &lt;strong&gt;whose identity
+provider authenticates them&lt;/strong&gt;. Those two choices combine into a small set
+of named scenarios. This guide names each one, describes what your users
+experience, and explains &lt;strong&gt;when you would choose one over the next&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For the step-by-step setup behind these choices, follow the links into
+&lt;a href="/cloud/guides/self-hosted/white-labeling/"&gt;White-labeling&lt;/a&gt; (themes, logos,
+custom domains) and &lt;a href="/cloud/guides/self-hosted/planning/identity-services/"&gt;Identity Services&lt;/a&gt;
+(bring-your-own-credentials and authentication boundaries). This page is
+the map; those are the turn-by-turn directions.&lt;/p&gt;</description></item></channel></rss>
